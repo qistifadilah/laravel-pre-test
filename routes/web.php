@@ -23,8 +23,8 @@ Route::get('/', function () {
 
 Route::get('welcome', function () {
     return view('user.welcome');
-});
+})->name('get-welcome');
 
 Route::get('form', function () {
     return view('user.form');
-});
+})->name('get-form');

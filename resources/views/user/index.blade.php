@@ -23,7 +23,7 @@
 </p>
 <ol>
   <li>Mengunjungi Website ini</li>
-  <li>Mendaftar di <a href="/form">Form Sign Up</a></li>
+  <li>Mendaftar di <a href="{{ route('get-form') }}">Form Sign Up</a></li>
   <li>Selesai!</li>
 </body>
 </html>

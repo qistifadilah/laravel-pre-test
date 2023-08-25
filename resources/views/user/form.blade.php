@@ -9,7 +9,7 @@
   <body>
     <h1>Buat Account Baru</h1>
     <h3>Sign Up Form</h3>
-    <form action="/welcome">
+    <form action="{{ route('get-welcome') }}">
       <label for="fn">First name :</label>
       <br /><br />
       <input type="text" name="" id="fn" />
